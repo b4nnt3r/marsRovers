@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from '../logo.svg';
 import '../styles/App.css';
 
 export default class App extends Component {
@@ -26,7 +26,7 @@ export default class App extends Component {
   }
 }
 
-fetchRoverImage() {
+function fetchRoverImage() {
   this.setState({camera: this.state.camera, rover: this.state.rover, sol: this.state.sol});
     let cam = this.state.camera;
     let rove = this.state.rover;
