@@ -61,8 +61,8 @@ export default class GetImageForm extends Component{
           <option value="Opportunity">Opportunity</option>
           <option value="Spirit">Spirt</option>
         </select>
-        <label htmlFor="camera">Camera Type</label><select onChange={this.handleCamera} id="camera" value={this.state.camera}>
-        <select onChange={this.handleCamera} id="rover" value={this.state.value}>
+        <label htmlFor="camera">Camera Type</label>
+        <select onChange={this.handleCamera} id="camera" value={this.state.camera}>
           <option value="fhaz">FHAZ (Front Hazard)</option>
           <option value="rhaz">RHAZ (Rear Hazard)</option>
           <option value="navcam">NAVCAM (Navigation Cam)</option>
